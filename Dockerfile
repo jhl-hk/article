@@ -6,6 +6,7 @@ RUN corepack enable
 
 # Dependencies stage
 FROM base AS deps
+RUN apk add --no-cache git
 WORKDIR /app
 COPY package.json pnpm-lock.yaml ./
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile

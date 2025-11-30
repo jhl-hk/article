@@ -6,7 +6,10 @@ RUN corepack enable
 
 # Dependencies stage
 FROM base AS deps
-RUN apk add --no-cache git
+RUN apk add --no-cache git openssh-client
+# Configure git to use HTTPS instead of SSH for GitHub
+RUN git config --global url."https://github.com/".insteadOf git@github.com: && \
+    git config --global url."https://".insteadOf git://
 WORKDIR /app
 COPY package.json pnpm-lock.yaml ./
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile

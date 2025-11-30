@@ -12,7 +12,7 @@ tags: [
 ]
 category: 'Blogs'
 draft: false
-lang: 'zh-cn'
+lang: 'zh_CN'
 ---
 
 > 简介

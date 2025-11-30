@@ -13,7 +13,7 @@ tags: [
 ]
 category: 'Blogs'
 draft: false
-lang: 'zh-cn'
+lang: 'zh_CN'
 ---
 
 自从上次的记录 idc 的 p1 之后，我又有想要开始售卖 vps 和 vds 等服务的想法。为了实现这个想法和我的一个小愿望，我通过朋友的介绍注册了

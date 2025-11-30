@@ -10,7 +10,7 @@ import { LinkPreset } from "./types/config";
 export const siteConfig: SiteConfig = {
 	title: "JHL-HK",
 	subtitle: "JHL-HK's Blog",
-	lang: "en", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
+	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: true, // Hide the theme color picker for visitors
@@ -72,7 +72,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "LinkedIn",
 			icon: "fa6-brands:linkedin",
-			url: "https://www.linkedin.com/in/jianyuehugoliang/",
+			url: "https://www.linkedin.com/in/jhl-hk/",
 		},
 		{
 			name: "Email",

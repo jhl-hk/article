@@ -9,7 +9,7 @@ tags: [
 ]
 category: 'Articles'
 draft: false
-lang: 'zh-cn'
+lang: 'zh_CN'
 ---
 
 > 服务器的活跃玩家在基地和合照——从左往右 Hashtag233、xiaowenYOyo、JianyueHugo、wo_shigeshabi
